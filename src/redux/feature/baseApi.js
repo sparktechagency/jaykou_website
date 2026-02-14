@@ -3,8 +3,8 @@ import { SetAccessToken } from './auth/authSlice';
 import { SetUserProfile } from './profile/profileSlice';
 
 const rawBaseQuery = fetchBaseQuery({
-    // baseUrl: 'https://backend.koumanisdietapp.com',
-    baseUrl: 'http://172.252.13.86:5005',
+    baseUrl: 'https://backend.koumanisdietapp.com',
+    //baseUrl: 'http://172.252.13.86:5005',
     // baseUrl: 'http://10.10.20.50:5005',
 
     prepareHeaders: (headers, { getState }) => {
